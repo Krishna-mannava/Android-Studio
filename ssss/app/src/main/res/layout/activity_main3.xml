@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About the Game"
+            android:textColor="#FF3D00"
+            android:textSize="30dp"/>
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Flames game is one of the interesting game that everyone likes to play to know the relationship with their partner.\n \n The Word FLAMES stands for \n\n
+F - Friends\n
+L - Lovers\n
+A - Affection\n
+M - Marriage\n
+E - Enemies\n
+S - Siblings\n"
+            android:textColor="#F41E1E"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF3D00"
+            android:text="How to Play ?\n"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF3D00"
+            android:text="1.\t Enter the name of the two person's not necessarily    of same gender.\n\n
+2.\t Now Click on the 'play' Button to know the    relationship between two person's\n\n
+3.\t An alert box would be displayed displaying    relationship between two person's\n\n
+4.\t Now you can continue the game or exit the game.\n\n"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity_main_link"
+            android:text="@string/hyperlink"
+            android:textColor="#FF3F03"
+            />
+    </LinearLayout>
+
+</ScrollView>

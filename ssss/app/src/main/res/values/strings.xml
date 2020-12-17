@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Flames</string>
+    <string name="play">play</string>
+    <string name="dialog_message">Welcome to Alert Dialog</string>
+    <string name="dialog_title">Javatpoint Alert Dialog</string>
+    <string name="hyperlink">Learn more about FLAMES game: \n<a href="https://www.wikihow.com/Play-%22Flame%22">Flames</a></string>
+</resources>

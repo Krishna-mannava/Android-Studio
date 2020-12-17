@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ds"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:text="play"
+        android:background="#000000"
+        android:textColor="#F31111"
+        android:layout_marginBottom="12dp">
+    </Button>
+
+    <Button
+        android:id="@+id/clicks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#000000"
+        android:padding="20dp"
+        android:text="Help"
+        android:textColor="#F31111"
+        android:layout_marginBottom="12dp"></Button>
+    <Button
+        android:id="@+id/clickser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#000000"
+        android:padding="20dp"
+        android:text="Exit"
+        android:textColor="#F31111"></Button>
+
+</LinearLayout>

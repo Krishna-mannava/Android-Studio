@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/delhi"
+    android:padding="30dp"
+    android:gravity="center"
+
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:hint="Enter Player1 Name"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:singleLine="true"></EditText>
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter Player2 Name"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:singleLine="true"></EditText>
+
+    <Button
+        android:id="@+id/clickon"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="play"></Button>
+</LinearLayout>
